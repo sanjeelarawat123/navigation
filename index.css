@@ -56,18 +56,31 @@ img{
    justify-content: space-between;
 } */
 
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.cont{
+   background-color: dodgerblue;
+   padding: 20px 10px;
+  
+}
 .cont>ul{
    display: flex;
    justify-content: space-around;
-  
+   list-style: none;
 }
-
 .cont>ul>li>a{
    text-decoration: none;
    
    color: black;
 
    &:hover{
-      color:blueviolet
+      background-color: white;
+      padding: 5px 10px;
+      border-radius: 8px;
    }
 }
+
